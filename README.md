@@ -1,10 +1,11 @@
 # reprofilesync
 Reproing file sync issue. 
 System to use to repro this issue
-- Azure windows 2022 server image
-- SKU Standard D8ads v5 (8 vcpus, 32 GiB memory)
+- Codespace or Azure VM
+- Issue may or may not be reproduced in local laptop
 
 # Steps to repro issue
+Create a codespace of this repo
 1. Execute node read.js
 2. Execute node write.js
 
