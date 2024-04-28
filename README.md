@@ -1,5 +1,8 @@
 # reprofilesync
-Reproing file sync issue
+Reproing file sync issue. 
+System to use to repro this issue
+- Azure windows 2022 server image
+- SKU Standard D8ads v5 (8 vcpus, 32 GiB memory)
 
 # Steps to repro issue
 1. Execute node read.js
