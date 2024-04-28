@@ -1,8 +1,8 @@
-# reprofilesync
-Reproing file sync issue. 
+# repro file read write concurrency issue
+This repo creates a repro and fixed for file read write concurrency issue
 System to use to repro this issue
 - Codespace or Azure VM
-- Issue may or may not be reproduced in local laptop
+- Issue may or may not be reproduced on local laptop
 
 # Steps to repro issue
 Create a codespace of this repo and execute belew steps
