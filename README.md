@@ -17,19 +17,19 @@ Create a codespace of this repo and execute belew steps
 
     This will write some random content to file.txt so that read.js should print it
 
-## Expected result
+#### Expected result
 - read.js should print read.txt contents
 
-## Actual result
+#### Actual result
 - read.js prints blank content
 
-## Steps to run fixed code
+# Steps to run fixed code
 1. `rm -r file.txt`
 2. `node read-fixed.js`
 3. `node write-fixed.js`
 
-## Expected result
+#### Expected result
 - read.js should print read.txt contents
 
-## Actual result
+#### Actual result
 - read.js prints read.txt content
