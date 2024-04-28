@@ -5,9 +5,17 @@ System to use to repro this issue
 - Issue may or may not be reproduced in local laptop
 
 # Steps to repro issue
-Create a codespace of this repo
-1. Execute node read.js
-2. Execute node write.js
+Create a codespace of this repo and execute belew steps
+1. `rm -r file.txt`
+
+    Clear any stale output file from previous runs
+2. `node read.js`
+
+    This will start reading for file.txt till the file is present. whenever file is present it will print file content and exit process
+
+3. `node write.js`
+
+    This will write some random content to file.txt so that read.js should print it
 
 ## Expected result
 - read.js should print read.txt contents
@@ -15,9 +23,10 @@ Create a codespace of this repo
 ## Actual result
 - read.js prints blank content
 
-## Steps to fix
-1. Execute node read-fixed.js
-2. Execute write-fixed.js
+## Steps to run fixed code
+1. `rm -r file.txt`
+2. `node read-fixed.js`
+3. `node write-fixed.js`
 
 ## Expected result
 - read.js should print read.txt contents
